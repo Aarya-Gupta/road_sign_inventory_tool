@@ -1,1 +1,0 @@
-# road_sign_inventory_tool

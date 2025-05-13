@@ -1,0 +1,11 @@
+# requirements.txt
+Flask>=2.0
+ultralytics>=8.0.0  # Or the specific version you trained with
+opencv-python-headless>=4.5 # Headless version is fine for server processing
+torch>=1.9           # Dependency for ultralytics
+torchaudio>=0.9      # Dependency for ultralytics
+torchvision>=0.10    # Dependency for ultralytics
+numpy
+python-dotenv       # To load config from .env file or similar (good practice)
+# werkzeug            # Flask dependency, ensure it's compatible
+Werkzeug>=2.3.0,<3.0.0 # Pin Werkzeug version below 3.0

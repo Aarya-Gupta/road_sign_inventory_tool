@@ -1,0 +1,24 @@
+# .gitignore
+
+# Python
+*.pyc
+__pycache__/
+venv/
+*.env
+*.log*
+
+# OS / Editor specific
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Uploads and Outputs (Temporary files)
+uploads/*
+!uploads/.gitkeep # Keep the directory but ignore contents
+outputs/*
+!outputs/.gitkeep # Keep the directory but ignore contents
+
+# Model files if they are very large and you prefer not to track them in Git
+# Consider using Git LFS (Large File Storage) if needed
+# ml_model/*.pt
